@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="keshe1.css"> -->
+    <style >
+        *{
+	   margin: 0;
+	   padding: 0;
+       }
+        body{
+        background: url("images/true.jpg");
+        background-size: 100% 100%;
+       }
+        #ab{
+           height: 50.5em;
+           width: 100%;
+           background-color: black;
+           /* margin-top: 2em;
+           margin-bottom:2em;
+           margin-left: 3em;
+           margin-right: 3em; */
+           
+    }
+        #one{
+         height:7em;
+         background: url("images/1254329413650_mthumb.jpg");
+         background-size: 100% 100%;
+     }
+        #header1{
+            height: 3em;
+            background:url("images/t01ab563547537fa7a9.gif");
+            text-align: center;
+
+        }
+       #ad{
+            display: inline-block;
+            margin-left: 6%;
+            font-size: 2em;
+        }
+        #ad:hover{
+            color: red;
+        }
+#two{
+    /* height: 32.8em; */
+    float:left;
+    display: inline-block;
+    text-align: center;
+    width: 14%;
+    height: 41em;
+    background:url('images/200711103347595_2.jpg');
+    background-size: 100% 100%;
+
+}
+#three{
+    width: 100%;
+    height: 32.8em;
+    font-size: 20px;
+    background:url('images/bOzC4f_fw658.jfif');
+    background-size: 100% 100%;
+}
+#foot{
+    /* height: 10%; */
+    background-color: aquamarine;
+    text-align: center;
+    
+}
+h2,h1{
+    color: black;
+}
+li{
+    padding-top:50px;
+    font color: #000;
+    list-style  : none;
+}
+/* nav */
+#nav li:hover{
+    background: url(images/t0196dc8c782efbc6f7.webp);
+
+}
+
+#nav li{
+    padding-bottom: 2em;
+}
+#nav ul{
+    display: none;
+    position: absolute;
+    padding-top: 0em;
+}
+#nav li:hover ul{
+    display: block;
+}
+#ad:hover{
+    background-color: cornsilk;
+}
+#nav li ul{
+    padding-left: 28%;
+}
+#nav li ul li{
+    line-height: 0.6em;
+    
+}
+a:link,a:visited{ 
+ text-decoration:none;  /*超链接无下划线*/ 
+} 
+a:hover{ 
+ text-decoration:underline;  /*鼠标放上去有下划线*/ 
+}
+#qiehua{
+    overflow: auto;
+    width: auto;
+    height: 27.5em;
+    margin-left: 20%;
+
+
+    </style>
+</head>
+<body>
+    <img src="images/219184117.jpg" style="width:10%; height:10em; position: absolute;right:0em; top:0em">
+    <div id="ab">
+    <div id="one"></div>
+    <div id="header1"> 
+ 
+        <ul >
+            <a href="keshe.html"><p id="ad" >首页</p></a>
+            <a href="keshe2.html"><p id="ad">主要景区</p></a>
+            <a href="keshe3.html"><p id="ad">风俗传统</p></a>
+            <a href="keshe4.html"><p id="ad">注册报名</p></a>
+            <a href="keshe5.html"><p id="ad">美食特产</p></a>
+            <a href="keshe6.html"><p id="ad">倒计时</p></a>
+        </ul>
+
+    </div>
+    <div id="two">
+        
+        <ul id="nav">
+            <li style="background:url('images/t0196dc8c782efbc6f7.webp')"><a href=""><h1>导航</h1></a>
+        <ul>
+            <li ><a href="keshe.html"><h2 >首页</h2></a></li>
+            <li><a href="keshe2.html"><h2>主要景区</h2></a></li>
+            <li><a href="keshe3.html"><h2>风俗传统</h2></a></li>
+            <li><a href="keshe4.html"><h2>注册报名</h2></a></li>
+            <li><a href="keshe5.html"><h2>美食特产</h2></a></li>
+            <li><a href="keshe6.html"><h2>倒计时</h2></a></li>
+        </ul>
+        </li>
+            </ul>
+            
+        
+    </div>
+    <div id="three">
+        <h1 id="h2" style="font-size: 3em; text-align: center;">welcong to 河池</h1>
+        <br>
+            <div id="qiehua">
+               <img src="images/1.jpg" alt="" id="image" style="width:55em; height:90%; ">
+               
+               <!-- <h2 style="margin: auto;">河池，简称“河”，广西壮族自治区地级市，地处广西西北边陲、云贵高原南麓，距离山水甲天下的桂林市314千米，境内地形多样，结构复杂，地势西北高东南低。地处低纬，属亚热带季风气候区，辖2区9县，总面积3.35万平方千米。2017年户籍人口429.87万人。 [1-3]   -->
+                <!-- 河池境内国家“五纵七横”国道主干线西南出海大通道穿境而过，是西南出海大通道的咽喉要塞，是“南贵昆经济区”、“泛珠三角经济圈”、和“东盟自由贸易区”人流、物流、资金流、信息流聚集交汇的枢纽。河池是广西实施西部大开发的重点区域。河池是一座以壮族为主的多民族聚居城市是广西壮族自治区少数民族聚居最多的地区之一。 [4-5]  
+                河池“四区”即革命老区 [6]  、少数民族地区、国家重点扶持的贫困地区 [7]  、西部大开发的重点地区 [5]  ；“五乡”即中国有色金属之乡 [8]  、中国水电之乡 [5]  、世界铜鼓之乡 [9]  ，世界长寿之乡 [10]  ，壮族歌仙刘三姐的故乡 [5]  。
+                2017年，河池市实现地区生产总值734.60亿元。 [11]  2018年12月13日，入选中国特色农产品优势区名单。 [12]  2019年1月25日，入选2018年度全国“平安农机”示范市。</h2> -->
+              
+            </div>
+            </div>
+            <div id="foot">
+            <h2 style="margin-right: 10%;">2019-2020-1学期 web前端开发技术课程设计 软件Q173 201709601169 韦航</h2>
+    </div>
+    
+    </div>
+    
+</body>
+<script>
+    var image = document.getElementById("image");
+    var int = 1;
+setInterval (function (){
+
+        if(int ==6){
+            int =1
+        }
+        else if(int==1){
+            int =2;
+        }
+        else if(int==2){
+            int =3;
+        }
+        else if(int==3){
+            int =4;
+        }
+        else if(int==4){
+            int =5;
+        }
+        else if(int==5){
+            int =6;
+        }
+    image.setAttribute("src","images/"+int+".jpg");
+}, 800);
+
+var p = document.getElementById('h2');
+                setInterval(function(){
+                    p.style.color = "rgb("+rand(0,255)+","+rand(0,255)+","+rand(0,255)+")";
+                },500)
+                function rand(n,m){
+                    var num = Math.floor(Math.random()*(m-n+1)+n);
+                    return num;
+                }
+                
+</script>
+</html>
